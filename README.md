@@ -8,17 +8,16 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
-
+- Nome: Thais Paula Miranda
+- Matricula: 878662
+- Proposta de projeto escolhida: Guia de Lugares Turisticos
+- Breve descrição sobre seu projeto: Este site apresenta um guia de lugares turísticos na Itália, destacando pontos turísticos famosos, culinária, recomendações de Hotel e imagens ilustrativas e informações sobre cada local. A página inicial exibe recomendações de destinos imperdíveis e proporciona uma experiência visual agradável para quem deseja conhecer mais sobre o país.
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<![  COLOQUE A IMAGEM AQUI ](<public/Wireframe - Esboço.jpg>)>>
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<![ COLOQUE A IMAGEM AQUI ](<public/Exibição da Home-Page.jpeg>)>>
