@@ -1,9 +1,121 @@
 /* ESTRUTURA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F2EB; /* Cor de fundo da página */
+}
 
 /* Estilos do Cabeçalho */
+header {
+    background-color: #205834; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 20px;
+}
 
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Espaço entre a logo e o menu */
+    align-items: center; /* Alinhar verticalmente os itens */
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+    display: flex; /* Exibe os itens do menu em linha */
+}
+
+.caixa-menuprincipal ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    color: white; /* Cor do texto do menu */
+    font-weight: bold;
+}
+
+.caixa-menuprincipal ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
 
 /* Estilos do Conteúdo Principal */
+main {
+    text-align: center; /* Centraliza o texto no conteúdo principal */
+    padding: 40px; /* Adiciona espaçamento ao redor do conteúdo */
+}
 
+h1 {
+    margin-bottom: 20px;
+    color: #8B4513; /* Cor do título */
+}
+
+.form-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Largura máxima do formulário */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Faz o rótulo ocupar toda a largura */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #8B4513; /* Cor da borda ao focar */
+    outline: none;
+}
+
+button {
+    padding: 12px 15px;
+    background-color: #8B4513; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #205834; /* Cor do botão ao passar o mouse */
+}
 
 /* Estilos do Rodapé */
+footer {
+    background-color: #205834; /* Cor de fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
